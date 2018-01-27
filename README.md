@@ -18,13 +18,5 @@ SDK直接复制粘贴的官方推荐写法。
 
 运行 `python all-in.py` 。
 
-***
-
-### 更多例子
->计算账户里的USDT能买多少个ETH：
-
-print(cal_num('eth', 'usdt'))
-
-用账户里全部未冻结的USDT购买BTC：
-
-print(all_in('btc', 'usdt'))
+### 打赏
+ETH：0x2D4866782783224076ca939687D6f62c2c247F17
