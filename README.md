@@ -1,5 +1,8 @@
-# huobi.pro市价全仓买入
-效果：持续监测火币的REST-API，在新币上市场交易的瞬间用市场价买入
+# 上币监测、市价全仓买入
+
+[![Build Status](https://travis-ci.org/se4/huobi-all-in.svg?branch=master)](https://travis-ci.org/se4/huobi-all-in)
+
+效果：持续监测火币PRO的REST-API，在新币开放交易的瞬间用**市场价**买入
 
 ### 适用于Python3
 SDK直接复制粘贴的官方推荐写法。
@@ -12,9 +15,9 @@ SDK直接复制粘贴的官方推荐写法。
 ```
 COIN1='lun'
 COIN2='eth'
-MIN_NUM=780
+MIN_NUM=5
 
--- 我火币钱包里的ETH能买到780个以上的LUN才会触发本次购买
+-- 我火币钱包里的ETH能买到5个以上的LUN才会触发本次购买
 -- 如果不想全仓买入，可以修改54行 amount='0.1' 代表购买价值0.1ETH的LUN
 ```
 
