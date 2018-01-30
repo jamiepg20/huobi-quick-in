@@ -36,7 +36,7 @@ COIN2_AMOUNT = 0.5
 
 运行 `pip install -r requirements.txt`；
 
-运行 `python all-in.py` 。
+运行 `python main.py` 。
 
 ### 打赏
 ETH：0x2D4866782783224076ca939687D6f62c2c247F17
