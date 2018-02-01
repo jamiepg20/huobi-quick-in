@@ -1,6 +1,6 @@
 # 上币监测、限价买入
 
-[![Build Status](https://travis-ci.org/se4/huobi-all-in.svg?branch=master)](https://travis-ci.org/se4/huobi-all-in)
+[![Build Status](https://travis-ci.org/se4/huobi-quick-in.svg?branch=master)](https://travis-ci.org/se4/huobi-quick-in)
 
 概括：Python3脚本持续监测huobi.pro的REST-API，在新币开放交易的时候快速买入
 
@@ -47,7 +47,9 @@ COIN2 = 'btc'
 
 ### 风险自担
 
-十分感谢V2EX的虾哔哔童鞋以身试BUG...我感到十分抱歉！给他造成了大的损失！我估摸着也没人打赏，但是如果有人打赏一定微信转交给虾哔哔！
+十分感谢V2EX的虾哔哔童鞋以身试BUG...我感到十分抱歉！给他造成了大的损失！
+
+我估摸着也没人打赏，但是如果有人打赏一定微信转交给虾哔哔！
 
 本次提交后，买入方法改为从深度图获取价格、限价单买入。
 
